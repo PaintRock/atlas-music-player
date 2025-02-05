@@ -6,7 +6,7 @@ import PlayListItem from "./PlayListItem";
 
 export default function MusicPlayer() {
   return ( 
-    <div className="flex flex-col items-center gap=4">
+    <div className="max-w-5xl mx-auto">
     <CoverArt />
     <SongTitle />
     <PlayControls />
