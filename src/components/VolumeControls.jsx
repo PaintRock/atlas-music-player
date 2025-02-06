@@ -10,7 +10,7 @@ export default function VolumeControls() {
             className="w-40 h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
             min="0"
             max="100"
-            devaultValue="50"
+            defaultValue="50"
             />
         </div>
     );
