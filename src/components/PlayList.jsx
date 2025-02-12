@@ -60,8 +60,8 @@ export default function PlayList({ currentSong, onSongSelect }) {
     ];
     
     return (
-        <div className="border rounded-lg overflow-hidden">
-            <h2 className="px-4 py-3 font-semibold border-b">Playlist</h2>
+        <div className="overflow-hidden">
+            <h2 className="flex px-4 py-3 font-semibold border-b justify-center">PLAYLIST</h2>
             {songs.map((song) => (
                 <PlayListItem
                     key={song.title}

@@ -11,9 +11,9 @@ export default function MusicPlayer() {
   console.log('MusicPlayer state:', currentSong);
   
   return ( 
-    <div className="w=full p-8">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        <div className="w-full">
+    <div className="w-full p-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 h-full">
+        <div className="border rounded-lg p-6 bg-white shadow-md">
     <CurrentlyPlaying
     title={currentSong.title}
     artist={currentSong.artist}
@@ -21,7 +21,7 @@ export default function MusicPlayer() {
     </div>
 
     
-    <div className="w-full">
+    <div className="border rounded-lg p-6 bg-white shadow-md">
     <PlayList
           currentSong={currentSong}
           onSongSelect={(song) => {
